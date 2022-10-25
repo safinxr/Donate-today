@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* 
+    font-family: 'Lobster', cursive; */
+}
+.header-tags {
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    color: #707070;
+}
+
+/* ✅✅✅✅✅✅ Header area ✅✅✅✅✅✅ */
+
+.top-header{
+    display: flex;
+    align-items: center;
+}
+.background-img{
+    background-image: url(/images/pink\ c.png), url(/images/pink\ c.png);   
+    background-size:673px, 831px ;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-position-x: 780px, 700px;
+
+
+}
+.header-left{
+    margin-left:156px ;
+
+    width: 43%;
+}
+.header-right{
+    width: 57%;
+    margin-top: 66px;
+    
+}
+
+.btn-primary{
+    border: 0;
+    background-color: #FF5959;
+    padding: 14px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.video-button {
+    color: black;
+    border: 0;
+    background-color: white;
+    font-size: 22px;
+    margin-left: 30px;
+    
+}
+
+.header-img {
+    width: 490px;
+    height: 603px;
+    font-family: 'Inter', sans-serif;
+}
