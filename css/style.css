@@ -6,9 +6,11 @@ body {
     /* 
     font-family: 'Lobster', cursive; */
 }
+
 .header-tags {
     font-family: 'Inter', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -21,41 +23,53 @@ p {
     color: #707070;
 }
 
+.sub-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+
 /* ✅✅✅✅✅✅ Header area ✅✅✅✅✅✅ */
 
-.top-header{
+.top-header {
     display: flex;
     align-items: center;
-    background-color: 
-    #FAFAFA;
+    background-color:
+        #FAFAFA;
+    margin-bottom: 130px;
 }
-.background-img{
-    background-image: url(/images/pink\ c.png), url(/images/pink\ c.png);   
-    background-size:653px, 811px ;
+
+.background-img {
+    background-image: url(/images/pink\ c.png), url(/images/pink\ c.png);
+    background-size: 653px, 811px;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     background-position-x: 600px, 520px;
 
 
 }
-.header-left{
-    margin-left:100px ;
+
+.header-left {
+    margin-left: 100px;
     width: 40%;
     margin-top: 66px;
 }
-.header-right{
+
+.header-right {
 
     width: 60%;
     margin-top: 66px;
-    
+
 }
 
-.btn-primary{
+.btn-primary {
     border: 0;
     background-color: #FF5959;
     padding: 14px 22px;
     border-radius: 5px;
     font-size: 20px;
+    color: white;
 
 }
 
@@ -65,7 +79,7 @@ p {
     background-color: white;
     font-size: 22px;
     margin-left: 30px;
-    
+
 }
 
 .header-img {
@@ -73,4 +87,58 @@ p {
     width: 470px;
     height: 583px;
     font-family: 'Inter', sans-serif;
+}
+
+/* ✅✅✅✅✅✅✅ Donate section ✅✅✅✅✅✅✅ */
+.all-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-box {
+    width: 135px;
+    height: 123px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amount-box:hover {
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+.amount-input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 695px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.amount-input:focus {
+    outline: none !important;
+    border-bottom: 2px solid black;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
