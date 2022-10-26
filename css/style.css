@@ -146,12 +146,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* ✅✅✅✅✅✅✅ Donate-plans ✅✅✅✅✅✅✅*/
 
-.donate-plans{
+.donate-plans {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.plans1{
+
+.plans1 {
     box-sizing: border-box;
     width: 360px;
     height: 352px;
@@ -160,7 +161,8 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 10px;
     margin: 0 12.5px;
 }
-.plans2{
+
+.plans2 {
     box-sizing: border-box;
     width: 360px;
     height: 352px;
@@ -169,7 +171,8 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 10px;
     margin: 0 12.5px;
 }
-.plans3{
+
+.plans3 {
     box-sizing: border-box;
     width: 360px;
     height: 352px;
@@ -177,4 +180,33 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 60px 23px 0 23px;
     border-radius: 10px;
     margin: 0 12.5px;
+}
+
+/* ✅✅✅✅✅✅✅ homeless-area ✅✅✅✅✅✅✅  03 */
+
+.homeless-area {
+    display: flex;
+    align-items: center;
+    margin: 130px 100px;
+}
+
+.homeless-left {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.homeless-right {
+    width: 50%;
+}
+
+.homeless-img {
+
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeless-right2 {
+    width: 50%;
+    margin-left: 100px;
 }
