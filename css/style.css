@@ -55,6 +55,9 @@ p {
     width: 40%;
     margin-top: 66px;
 }
+.header-left h1{
+    font-size: 65px; margin:0 0 12px 0;
+}
 
 .header-right {
 
@@ -87,6 +90,9 @@ p {
     width: 470px;
     height: 583px;
     font-family: 'Inter', sans-serif;
+}
+.shot-img{
+    display: none;
 }
 
 /* ✅✅✅✅✅✅✅ Donate section ✅✅✅✅✅✅✅ */
@@ -147,39 +153,33 @@ input[type=number]::-webkit-outer-spin-button {
 /* ✅✅✅✅✅✅✅ Donate-plans ✅✅✅✅✅✅✅*/
 
 .donate-plans {
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(3, 360px) ;
     justify-content: center;
-    margin-top: 50px;
+    grid-gap: 30px;
+    margin-top: 100px;
+
 }
 
 .plans1 {
     box-sizing: border-box;
-    width: 360px;
-    height: 352px;
     background-color: rgba(79, 157, 166, 0.1);
-    padding: 60px 23px 0 23px;
+    padding: 60px 23px 15px 23px;
     border-radius: 10px;
-    margin: 0 12.5px;
 }
 
 .plans2 {
     box-sizing: border-box;
-    width: 360px;
-    height: 352px;
     background-color: rgba(255, 89, 89, 0.1);
-    padding: 60px 23px 0 23px;
+    padding: 60px 23px 15px 23px;
     border-radius: 10px;
-    margin: 0 12.5px;
 }
 
 .plans3 {
     box-sizing: border-box;
-    width: 360px;
-    height: 352px;
     background-color: #FFF4D6;
-    padding: 60px 23px 0 23px;
+    padding: 60px 23px 15px 23px;
     border-radius: 10px;
-    margin: 0 12.5px;
 }
 
 /* ✅✅✅✅✅✅✅ homeless-area ✅✅✅✅✅✅✅  03 */
@@ -188,6 +188,9 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     align-items: center;
     margin: 130px 100px;
+}
+.homeless-area h1{
+    font-size: 45px; margin:0 0 12px 0;
 }
 
 .homeless-left {

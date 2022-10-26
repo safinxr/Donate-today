@@ -1,0 +1,215 @@
+@media only screen and (min-width:1201px) and (max-width: 1300px) {
+    .background-img {
+        background-size: 553px, 711px;
+        background-position-x: 580px, 500px;
+
+    }
+
+    .header-left {
+        margin-left: 90px;
+    }
+
+    .header-left h1 {
+        font-size: 57px;
+        margin: 0 0 12px 0;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+
+    .background-img {
+        background-size: 500px, 641px;
+        background-position-x: 490px, 420px;
+    }
+
+    .header-img {
+        margin-left: 70px;
+        width: 370px;
+        height: 483px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .header-left {
+        margin-left: 70px;
+    }
+
+    .header-left h1 {
+        font-size: 40px;
+        margin: 0 0 12px 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .btn-primary {
+        padding: 10px 18px;
+        border-radius: 5px;
+        font-size: 16px;
+
+    }
+
+    .video-button {
+        font-size: 18px;
+        margin-left: 22px;
+
+    }
+
+    .sub-text {
+        font-size: 30px;
+    }
+    .donate-plans {
+        display: grid;
+        grid-template-columns:repeat(3, 300px) ;
+    
+    }
+
+    .homeless-area {
+        margin: 130px 50px;
+    }
+
+    .homeless-area h1 {
+        font-size: 35px;
+        margin: 0 0 12px 0;
+    }
+
+    .homeless-img {
+
+        width: 400px;
+        height: 420px;
+
+    }
+
+    .updates {
+        width: 700px;
+        height: 180px;
+        margin: 50px auto 80px auto;
+    }
+
+    .update-input {
+        width: 250px;
+        height: 35px;
+        font-size: 18px;
+
+    }
+
+    .btn-update {
+        width: 117px;
+        height: 37px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    .footer-text {
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (min-width:769px) and (max-width: 992px) {
+    .top-header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .background-img {
+        background-image: none;
+    }
+
+    .header-img {
+        display: none;
+    }
+    .shot-img{
+        display: block;
+        width: 100%;
+        
+    }
+    .header-right{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .header-left {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .header-left h1 {
+        font-size: 55px;
+        margin: 0 0 12px 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 30px;
+    }
+    .top-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-primary {
+        padding: 10px 18px;
+        border-radius: 5px;
+        font-size: 16px;
+
+    }
+
+    .video-button {
+        font-size: 18px;
+        margin-left: 22px;
+
+    }
+
+    .sub-text {
+        font-size: 30px;
+    }
+
+    .homeless-area {
+        margin: 130px 50px;
+    }
+
+    .homeless-area h1 {
+        font-size: 35px;
+        margin: 0 0 12px 0;
+    }
+
+    .homeless-img {
+
+        width: 400px;
+        height: 420px;
+
+    }
+
+    .updates {
+        width: 700px;
+        height: 180px;
+        margin: 50px auto 80px auto;
+    }
+
+    .update-input {
+        width: 250px;
+        height: 35px;
+        font-size: 18px;
+
+    }
+
+    .btn-update {
+        width: 117px;
+        height: 37px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    .footer-text {
+        font-size: 30px;
+    }
+}
