@@ -202,9 +202,7 @@ input[type=number]::-webkit-outer-spin-button {
 .homeless-img {
 
     border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 .homeless-right2 {
     width: 50%;
