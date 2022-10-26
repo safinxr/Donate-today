@@ -26,23 +26,26 @@ p {
 .top-header{
     display: flex;
     align-items: center;
+    background-color: 
+    #FAFAFA;
 }
 .background-img{
     background-image: url(/images/pink\ c.png), url(/images/pink\ c.png);   
-    background-size:673px, 831px ;
+    background-size:653px, 811px ;
     background-repeat: no-repeat;
     background-position:bottom;
-    background-position-x: 780px, 700px;
+    background-position-x: 600px, 520px;
 
 
 }
 .header-left{
-    margin-left:156px ;
-
-    width: 43%;
+    margin-left:100px ;
+    width: 40%;
+    margin-top: 66px;
 }
 .header-right{
-    width: 57%;
+
+    width: 60%;
     margin-top: 66px;
     
 }
@@ -66,7 +69,8 @@ p {
 }
 
 .header-img {
-    width: 490px;
-    height: 603px;
+    margin-left: 70px;
+    width: 470px;
+    height: 583px;
     font-family: 'Inter', sans-serif;
 }
