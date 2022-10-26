@@ -3,8 +3,6 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* 
-    font-family: 'Lobster', cursive; */
 }
 
 .header-tags {
@@ -238,4 +236,18 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 20px;
     color: white;
 
+}
+footer{
+    height: 177px;
+    background-color: #0B0D17;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-text{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #FF5959;
 }
