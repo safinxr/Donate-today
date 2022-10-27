@@ -144,7 +144,7 @@
         text-align: center;
     }
 
-    p {
+    .header-left p {
         font-size: 15px;
         text-align: center;
         margin: 0 30px;
@@ -169,22 +169,41 @@
 
     .sub-text {
         font-size: 30px;
+        margin-bottom: 20px;
     }
+    .donate-plans {
+        grid-template-columns:repeat(2, 320px) ;
+        justify-content: center;
+        grid-gap: 30px;
+        margin: 80px 0px 0 0px;
 
+    }
+    
     .homeless-area {
-        margin: 130px 50px;
+        margin: 130px 20px;
     }
 
     .homeless-area h1 {
-        font-size: 35px;
+        font-size: 25px;
         margin: 0 0 12px 0;
     }
+    .homeless-area p {
+        font-size: 13px;
+        margin: 0 0 12px 0;
+    }
+    .homeless-left {
+        width: 50%;
+        margin-right: 50px;
+    }
+    .homeless-right2 {
+        width: 50%;
+        margin-left: 50px;
+    }
+
 
     .homeless-img {
-
-        width: 400px;
-        height: 420px;
-
+        width: 350px;
+        height: 380px;
     }
 
     .updates {
