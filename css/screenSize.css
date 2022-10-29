@@ -63,6 +63,10 @@
         grid-template-columns:repeat(3, 300px) ;
     
     }
+    .donate-plan-p{
+        text-align: center;
+        margin: 20px 200px 0px 200px;
+    }
 
     .homeless-area {
         margin: 130px 50px;
@@ -75,8 +79,7 @@
 
     .homeless-img {
 
-        width: 400px;
-        height: 420px;
+        width:100%;
 
     }
 
@@ -152,6 +155,7 @@
     .top-btn{
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
     }
 
     .btn-primary {
@@ -178,6 +182,10 @@
         margin: 80px 0px 0 0px;
 
     }
+    .donate-plan-p{
+        text-align: center;
+        margin: 20px 100px 0px 100px;
+    }
     
     .homeless-area {
         margin: 130px 20px;
@@ -202,8 +210,7 @@
 
 
     .homeless-img {
-        width: 350px;
-        height: 380px;
+        width: 100%;
     }
 
     .updates {
@@ -225,6 +232,364 @@
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         font-size: 15px;
+
+    }
+
+    .footer-text {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .top-header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .background-img {
+        background-image: none;
+    }
+
+    .header-img {
+        display: none;
+    }
+    .shot-img{
+        display: block;
+        width: 100%;
+        
+    }
+    .header-right{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .header-left {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .header-left h1 {
+        font-size: 35px;
+        margin: 0 0 12px 0;
+        text-align: center;
+    }
+
+    .header-left p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 30px;
+    }
+    .top-btn{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-size: 16px;
+
+    }
+
+    .video-button {
+        font-size: 17px;
+        margin-left: 22px;
+    }
+
+    .sub-text {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .donate-today p{
+        font-size: 15px;
+        margin: 0 60px;
+    }
+    .all-amount h1{
+        font-size: 20px;
+    }
+    .all-amount {
+        display: grid;
+        grid-template-columns: repeat(5, 95px);
+    }
+    
+    .amount-box {
+        height: 80px;
+        margin: 10px 5px 0 5px; 
+    }
+    .amount-input {
+        width: 395px;
+        height: 30px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .donate-plans {
+        grid-template-columns:repeat(2, 280px) ;
+        justify-content: center;
+        grid-gap: 30px;
+        margin: 80px 0px 0 0px;
+
+    }
+    .donate-plan-p{
+        text-align: center;
+        margin: 0 50px;
+    }
+    .donate-plans div{
+  
+        padding: 30px 15px 15px 15px;
+        border-radius: 10px;
+    }
+    .donate-plans div h2{
+  
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .donate-plans div p{
+  
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    
+    .homeless-area {
+        margin: 130px 15px;
+    }
+
+    .homeless-area h1 {
+        font-size: 20px;
+        margin: 0 0 12px 0;
+    }
+    .homeless-area p {
+        font-size: 13px;
+        margin: 0 0 12px 0;
+    }
+    .homeless-pdiv{
+        height: 150px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+    }
+    .homeless-left {
+        width: 50%;
+        margin-right: 30px;
+    }
+    .homeless-right2 {
+        width: 50%;
+        margin-left: 30px;
+    }
+
+
+    .homeless-img {
+        width: 100%;
+    }
+
+    .updates {
+        width: 500px;
+        height: 120px;
+        margin: 50px auto 80px auto;
+    }
+
+    .update-input {
+        width: 220px;
+        height: 30px;
+        font-size: 18px;
+
+    }
+
+    .btn-update {
+        width: 100px;
+        height: 32px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    .footer-text {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .top-header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .background-img {
+        background-image: none;
+    }
+
+    .header-img {
+        display: none;
+    }
+    .shot-img{
+        display: block;
+        width: 100%;
+        
+    }
+    .header-right{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .header-left {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .header-left h1 {
+        font-size: 35px;
+        margin: 0 0 12px 0;
+        text-align: center;
+    }
+
+    .header-left p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 30px;
+    }
+    .top-btn{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-size: 16px;
+
+    }
+
+    .video-button {
+        font-size: 17px;
+        margin-left: 22px;
+    }
+
+    .sub-text {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .donate-today p{
+        font-size: 15px;
+        margin: 0 60px;
+    }
+    .all-amount h1{
+        font-size: 20px;
+    }
+    .all-amount {
+        display: grid;
+        grid-template-columns: repeat(3, 95px);
+    }
+    
+    .amount-box {
+        height: 80px;
+        margin: 10px 5px 0 5px; 
+    }
+    .amount-input {
+        width: 200px;
+        height: 30px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .donate-plans {
+        grid-template-columns:repeat(1, 350px) ;
+        justify-content: center;
+        grid-gap: 30px;
+        margin: 80px 0px 0 0px;
+
+    }
+    .donate-plan-p{
+        text-align: center;
+        margin: 0 50px;
+    }
+    .donate-plans div{
+  
+        padding: 30px 15px 15px 15px;
+        border-radius: 10px;
+    }
+    .donate-plans div h2{
+  
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .donate-plans div p{
+  
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    
+    .homeless-area {
+        margin: 130px 15px;
+    }
+    .homeless-area {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 100px 0px;
+    }
+
+    .homeless-area h1 {
+        font-size: 20px;
+        margin: 0 0 12px 0;
+    }
+    .homeless-area p {
+        font-size: 13px;
+        margin: 0 0 12px 0;
+    }
+    .homeless-pdiv{
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .homeless-left {
+        width: 90%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .homeless-right2 {
+        width: 90%;
+        margin-left: 0px;
+        margin-top: px;
+        order: -1;
+    }
+    .homeless-right {
+        width: 90%;
+    }
+
+
+    .homeless-img {
+        width: 100%;
+    }
+
+    .updates {
+        width: 350px;
+        height: 100px;
+        margin: 50px auto 80px auto;
+    }
+
+    .update-input {
+        width: 150px;
+        height: 25px;
+        font-size: 18px;
+
+    }
+
+    .btn-update {
+        width: 70px;
+        height: 26px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 12px;
 
     }
 
